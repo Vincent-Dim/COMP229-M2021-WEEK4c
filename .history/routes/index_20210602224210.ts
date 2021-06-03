@@ -5,13 +5,13 @@ export default router;
 /* GET home page. */
 router.get('/', function(req, res, next) 
 {
-  res.render('index', { title: 'Home', page: 'home' });     //object sent to the site. page: adds a property to the object
+  res.render('index', { title: 'My Home', page: 'home' });     //object sent to the site. page: adds a property to the object
 });
 
 /* GET home page. */
 router.get('/home', function(req, res, next)  // so that entering http://localhost:3000/home in browser displays home page
 {
-  res.render('index', { title: 'Home', page: 'home' });
+  res.render('index', { title: 'My Home', page: 'home' });
 });
 
 /* GET about page. */
