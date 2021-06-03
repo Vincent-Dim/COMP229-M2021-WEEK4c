@@ -2,9 +2,9 @@
   "name": "week4c",
   "version": "0.0.2",
   "private": true,
-  "description":"Demo project for COMP229 - Week 4",
+  "description": "Demo project for COMP229 - Week 4",
   "main": "index.js",
-  "repository":"https://github.com/Vincent-Dim/COMP229-M2021-Week4c.git",
+  "repository": "https://github.com/Vincent-Dim/COMP229-M2021-Week4c.git",
   "author": "Vincent Dim <vdim@my.centennialcollege.ca>",
   "license": "MIT",
   "scripts": {
@@ -20,6 +20,7 @@
     "express": "^4.17.1",
     "http-errors": "^1.8.0",
     "jquery": "^3.6.0",
+    "mongoose": "^5.12.12",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
@@ -30,6 +31,7 @@
     "@types/express": "^4.17.12",
     "@types/http-errors": "^1.8.0",
     "@types/jquery": "^3.5.5",
+    "@types/mongoose": "^5.11.64",
     "@types/morgan": "^1.9.2",
     "@types/node": "^15.6.1"
   }
