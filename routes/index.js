@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 const router = express_1.default.Router();
 exports.default = router;
 router.get('/', function (req, res, next) {
-    res.render('index', { title: 'Home' }); //the value of the title property is 'Home' the index.ejs file then reads it and injects its value into <%=title %>
+    res.render('index', { title: 'Home' });
 });
 router.get('/home', function (req, res, next) {
     res.render('index', { title: 'Home' });
